@@ -1,0 +1,28 @@
+.main-final {
+    display: flex;
+    background-color: black;
+    height: 60px;
+    width: 1349px;
+}
+
+.main-final .redes-sociais {
+    display:flex; 
+    margin-left:594px;
+    margin-top: 10px;
+}
+
+.redes-sociais .rede {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin-right:20px;
+}
+
+.rede:hover {
+    transform: scale(1.09);
+    transition: 0.1s;
+    
+    
+}
+
+

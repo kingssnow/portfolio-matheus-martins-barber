@@ -1,0 +1,42 @@
+.main-carousel {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.main-carousel::after {
+    content: '';
+    position: absolute;
+    left: 50px;
+    top: 33px;
+    display: block;
+    height: 6px;
+    width: calc(100% - 100px);
+    background-color: black;
+}
+
+.main-carousel::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 33px;
+    display: block;
+    border: 3px dashed black;
+    width: 99%;
+}
+
+.main-carousel .button-arrow {
+    position: absolute;
+    bottom: 60px;
+    transform: translateY(35%);
+}
+
+.main-carousel .button-arrow.-left {
+    left: 15px;
+}
+
+.main-carousel .button-arrow.-right {
+    right: 15px;
+}

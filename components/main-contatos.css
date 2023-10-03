@@ -1,0 +1,102 @@
+.main-contatos {
+    display:flex;
+    justify-content: center;
+    background-color: #3A4042;
+    width: 1349px;
+    height: 770px;
+    border-bottom: 2px solid black;
+}
+
+
+.main-contatos .main-title.-seconds {
+    padding-top: 30px;
+    color:white;
+    text-shadow: none;
+    text-align: center;
+    font-size: 40px;
+}
+.formula {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+
+.form {
+    width: 100%;
+    max-width: 96%;
+
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+    display: block;
+    width: 100%;
+}
+
+.form label {
+    color: white;
+    line-height: 1;
+    margin-bottom: 8px;
+
+}
+
+.form input,
+.form textarea {
+    font: inherit;
+    padding: -0.6rem;
+    margin-bottom: 1.5rem;
+    border: 3px solid black;
+    transition: border-color,
+    box-shadow 0.2s;
+}
+
+.form textarea {
+    min-height: 13rem;
+    resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px black;
+}
+
+.form input:focus,
+.form textarea:focus {
+    background-color: rgb(244, 248, 170);
+}
+
+.form button {
+    display: block;
+    width: 100%;
+    max-width: 99%;
+    padding: 1rem;
+    background-color: #0FC8C8;
+    color: white;
+    font: 'Fira Code';
+    font-weight: 300;
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+    outline: none;
+    background-color: #0883bd;
+}
+    

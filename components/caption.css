@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family:'Press Start 2P', sans-serif;
+    font-size: 25px;
+    color:black;
+    
+
+}
+
+.cards {
+    text-decoration: none;
+  
+}
+
+.caption {
+    padding-top: 20px;
+    
+}
+
+

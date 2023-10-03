@@ -1,0 +1,22 @@
+.main-section {
+    background-color: #323232;
+    width: 1349px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    border-bottom: 3px solid #0FC8C8;
+}
+
+.main-section .main-title {
+    margin-bottom: 90px;
+}
+
+.main-section.-bgSecond {
+    background-color: #323232;
+}
+.main-section.-bdBlack {
+    border-color: black;
+}
+
+
+
+

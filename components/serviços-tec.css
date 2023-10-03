@@ -1,0 +1,22 @@
+.serviços-tec {
+    display: flex;
+    align-items: center;
+    font-family:'Press Start 2P', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.serviços-tec .icon {
+    margin-right: 25px;
+    width: 80px;
+}
+
+.serviços-tec .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.serviços-tec .title {
+    margin-bottom: 10px;
+}
